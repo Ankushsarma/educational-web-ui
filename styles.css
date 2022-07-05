@@ -86,9 +86,40 @@ h1 {
     z-index: -1;
 }
 
+.container_quickLincks {
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.con_quickLinksContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quickLinks_cont {
+    margin: 20px 10px;
+    width: 200px;
+    background-color: rgb(227, 247, 250);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+    cursor: pointer;
+    animation: .2s;
+}
+
+.quickLinks_cont:hover {
+    background-color: rgb(221, 249, 253);
+    width: 210px;
+}
+
 .container0 {
     text-align: center;
     padding-top: 10px;
+    background-color: rgba(252, 246, 240, 0.623);
 }
 
 .container0 h1 {
@@ -106,7 +137,6 @@ h1 {
 .cont01 {
     border-radius: 2%;
     padding: 10px;
-    background-color: rgba(255, 238, 221, 0.623);
     margin: 20px 15px;
     display: flex;
     align-items: center;
@@ -155,7 +185,6 @@ h1 {
 
 .co_item .col .card .card-body {
     height: 200px;
-    /* width: 400px; */
 }
 
 footer {
