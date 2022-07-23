@@ -111,10 +111,6 @@ h1 {
     animation: .2s;
 }
 
-.quickLinks_cont:hover {
-    background-color: rgb(221, 249, 253);
-    width: 210px;
-}
 
 .container0 {
     text-align: center;
@@ -223,14 +219,10 @@ footer {
 
 .footer-content p:hover {
     cursor: pointer;
-    color: whitesmoke;
-    font-size: 20px;
 }
 
 .footer-content p i:hover {
     cursor: pointer;
-    font-size: 30px;
-    color: antiquewhite;
 }
 
 .newslatter {
